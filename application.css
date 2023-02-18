@@ -90,21 +90,12 @@ html, body {
     padding-top: 2%;
 }
 
-.main-body-section h1, .main-body-section h2 {
+.main-body-section h2 {
     margin-top: 5%;
     margin-bottom: 2%;
+    font-size: 4rem;
     line-height: 5rem;
-}
-
-.main-body-section h1 {
-    color: #f5f5f5;
-    font-size: 4rem;
-    text-shadow: 0px 5px 10px #5c5b5b;
-}
-
-.main-body-section h2 {
     color: #5c5b5b;
-    font-size: 4rem;
 }
 
 .main-body-section h3 {
@@ -137,6 +128,17 @@ html, body {
 
 .mrcoffee-logo {
     width: 17%;
+}
+
+/* CAFETERIA PHOTO */
+
+.card-heading {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    line-height: 5rem;
+    color: #f5f5f5;
+    font-size: 4rem;
+    text-shadow: 0px 5px 10px #5c5b5b;
 }
 
 /* 3 THINGIES */

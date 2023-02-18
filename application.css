@@ -112,7 +112,7 @@ html, body {
     color: #5c5b5b;
 }
 
-/* headlines @ about page, bottom line @ home page */
+/* bottom line @ home page */
 .main-body-section h3 {
     font-size: 3rem;
     color: #5c5b5b;
@@ -213,8 +213,18 @@ html, body {
     text-align: left;
 }
 
-.about-h2 {
-    font-size: 3.5rem;
+.about-content-1 {
+    margin-top: 5rem;
+}
+
+.about-content-2 {
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.about-text-positioning {
+    margin-top: 8rem;
+    margin-right: 8rem;
 }
 
 /* FOOTER */

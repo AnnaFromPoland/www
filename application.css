@@ -278,3 +278,112 @@ html, body {
     width: 3rem;
     margin-right: 3rem;
 }
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 991px) {
+    .mrcoffee-logo { width: 12%; }
+    .map-snapshot { width: 40%; }
+    .button { margin-top: 6rem; height: 5rem; font-size: 2rem; }
+    .navbar { height: 7rem; }
+    .navbar-icon { height: 5rem; }
+    .footer { height: 12.5rem; }
+    .footer-icon { height: 7rem; }
+    .contact-padding { padding-left: 15%; padding-right: 15%; }
+    .about-text-positioning { margin-top: 7rem; margin-right: 7rem; }
+    .about-content-2 { margin-top: 10rem; margin-bottom: 8.5rem; }
+    .opening-hours-label { margin-bottom: 6%; }
+    .opening-hours-icon { width: 8rem; }
+    .button { margin-top: 6rem; height: 5rem; font-size: 2rem; }
+    .button h2 { margin: 1.5rem 6rem 1.5rem 6rem; }
+    .three-thingies-icons { width: 33%; }
+    .card-heading { margin-top: 4%; font-size: 3rem; line-height: 4rem; }
+    .main-body-section { margin-right: 5.5%; margin-left: 5.5%; }
+    .extra-padding { padding-top: 2.5%; padding-bottom: 2.5%; padding-left: 4%; padding-right: 4%; }
+    .extra-margin-h { margin-right: 5.5%; margin-left: 5.5%; }
+    .extra-margin-h-more { margin-right: 17%; margin-left: 17%; }
+    .extra-margin-bottom { margin-bottom: 5%; }
+    .extra-margin-bottom-2 { margin-bottom: 1.75%; }
+    .extra-margin-top { padding-top: 1.75%; }
+    .negative-top-margin { margin-top: -2.25%; }
+    .main-body-section h2 { margin-top: 4.5%; margin-bottom: 1.75%; font-size: 3.75rem; line-height: 4.5rem; }
+    .main-body-section h3 { font-size: 2.8rem; }
+    .main-body-section h4 { font-size: 2.25rem; }
+    .main-body-section h5 { line-height: 1.8rem; font-size: 1.3rem; }
+    .main-body-section p { font-size: 2.25rem; }
+
+}
+  
+@media all and (max-width: 767px) {
+    .mrcoffee-logo { width: 11%; }
+    .map-snapshot { width: 35%; }
+    .navbar { height: 6rem; }
+    .navbar-icon { height: 4.5rem; }
+    .footer { height: 11.5rem; }
+    .footer h5 { line-height: 3rem ;}
+    .footer-icon { height: 6.5rem; padding-left: 4rem; }
+    .contact-padding { padding-top: 3%; padding-bottom: 2%; padding-left: 12%; padding-right: 12%; }
+    .about-text-positioning { margin-top: 6rem; margin-right: 6rem; }
+    .about-content-2 { margin-top: 8rem; margin-bottom: 7rem; }
+    .opening-hours-label { margin-bottom: 4%; }
+    .opening-hours-icon { width: 6rem; }
+    .button { margin-top: 4rem; height: 3.5rem; font-size: 1.5rem; }
+    .button h2 { margin: 1rem 3rem 1rem 3rem; font-size: 2rem; }
+    .three-thingies { padding-top: 3%; padding-bottom: 1.5%; }
+    .three-thingies-padding { padding-top: 1.5%; padding-bottom: 1.5%; padding-left: 4.5%; padding-right: 4.5%; }
+    .three-thingies-icons { width: 28%; }
+    .card-heading { font-size: 2.5rem; }
+    .navbar-links { margin-right: 2.5rem; }
+    .main-body-section { margin-right: 4.5%; margin-left: 4.5%; }
+    .extra-padding { padding-top: 2.5%; padding-bottom: 2.5%; padding-left: 4%; padding-right: 4%; }
+    .extra-margin-h { margin-right: 5%; margin-left: 5%; }
+    .extra-margin-h-more { margin-right: 14%; margin-left: 14%; }
+    .extra-margin-bottom { margin-bottom: 4.5%; }
+    .extra-margin-bottom-2 { margin-bottom: 1.5%; }
+    .extra-margin-top { padding-top: 1.5%; }
+    .negative-top-margin { margin-top: -1.9%; }
+    .main-body-section h2 { margin-top: 4%; margin-bottom: 1.5%; font-size: 3.5rem; line-height: 4rem; }
+    .main-body-section h3 { font-size: 2.6rem; }
+    .main-body-section h4 { font-size: 2rem; }
+    .main-body-section h5 { line-height: 1.6rem; font-size: 1.15rem; }
+    .main-body-section p { font-size: 2rem; }
+}
+  
+@media all and (max-width: 575px) {
+    .mrcoffee-logo { width: 10%; }
+    .map-snapshot { width: 33%; }
+    .navbar { height: 5rem; }
+    .navbar-icon { height: 4rem; padding-left: 2rem }
+    .footer { height: 10.5rem; }
+    .footer-icon { height: 5.5rem; padding-left: 3rem; }
+    .footer h5 { line-height: 2.5rem ;}
+    .footer-links img { height: 2rem; width: 2rem; margin-right: 2rem; }
+    .contact-padding { padding-top: 3%; padding-bottom: 1%; padding-left: 8%; padding-right: 8%; }
+    .about-text-positioning { margin-top: 4rem; margin-right: 4rem; }
+    .about-content-2 { margin-top: 6rem; margin-bottom: 5rem; }
+    .opening-hours-label { margin-bottom: 3%; }
+    .opening-hours-icon { width: 4rem; }
+    .button { margin-top: 3rem; height: 2.5rem; font-size: 1rem; }
+    .button h2 { margin: 0.75rem 3rem 0.75rem 3rem; font-size: 1.5rem; }
+    .three-thingies { padding-top: 3%; padding-bottom: 1.5%; }
+    .three-thingies-padding { padding-top: 1%; padding-bottom: 1%; padding-left: 3.5%; padding-right: 3.5%; }
+    .three-thingies-icons { width: 25%; }
+    .card-heading { margin-top: 3%; font-size: 2.5rem; line-height: 3rem; }
+    .navbar-links { margin-right: 2rem; }
+    .main-body-section { margin-right: 4%; margin-left: 4%; }
+    .extra-padding { padding-top: 2%; padding-bottom: 2%; padding-left: 3.25%; padding-right: 3.25%; }
+    .extra-margin-h { margin-right: 4.5%; margin-left: 4.5%; }
+    .extra-margin-h-more { margin-right: 11%; margin-left: 11%; }
+    .extra-margin-bottom { margin-bottom: 4%; }
+    .extra-margin-bottom-2 { margin-bottom: 1.25%; }
+    .extra-margin-top { padding-top: 1.25%;  }
+    .negative-top-margin { margin-top: -1.65%; }
+    .main-body-section h2 { margin-top: 3.5%; margin-bottom: 1.25%; font-size: 3rem; line-height: 3.75rem; }
+    .main-body-section h3 { font-size: 2.3rem; }
+    .main-body-section h4 { font-size: 1.75rem; }
+    .main-body-section h5 { line-height: 1.4rem; font-size: 1rem; }
+    .main-body-section p { font-size: 1.75rem; }
+}
+
+
+

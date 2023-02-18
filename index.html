@@ -7,7 +7,7 @@
   <title>Mr Coffee - Accueil</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
-  <meta name="keywords" content="mrcoffee, mr coffee, café, cafeteria, caffee, coffee, kaffe, poèmes, poems, books, livres, bibliothèque, bibliothek, library, paris"/>
+  <meta name="keywords" content="mrcoffee, mr coffee, café, cafeteria, caffeé, coffee, kaffe, poèmes, poems, books, livres, bibliothèque, bibliothek, library, paris"/>
   <link rel="stylesheet" href="application.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="icon" href="favicon.png" />
@@ -29,18 +29,44 @@
     </nav>
 
     <!-- MAIN BODY SECTION -->
-
     <section class="main-body-section">
 
         <!-- HEADER -->
-        <header class="header container-fluid">
+        <div class="header container-fluid">
             <img class="mrcoffee-logo" src="./assets/logo_mrcoffee.png" alt="Mr Coffee Logo Dark">
-        </header>
+        </div>
 
         <!-- Cafeteria Photo -->
         <div class="card">
             <img src="./assets/mr_coffee_salle.jpg" class="cafe-photo" alt="Mr Coffee Café">
             <h1 class="card-img-overlay bold">DÉCOUVREZ NOTRE CAFÉ PHILO</h1>
+        </div>
+
+        <!-- 3 Modules Section -->
+        <div class="container-fluid">
+
+            <div class="row extra-margin-top extra-margin-bottom">
+                <h2 class="bold">Chez Mr.Coffee,<br> nous aimons trois choses</h2>
+            </div>
+
+            <div class="row d-flex justify-content-between">
+              <div class="col-3 three-thingies">
+                <img class="three-thingies-icons" src="./assets/icon_cafe.png" alt="Icon: Café">
+                <h6 class="bold three-thingies-padding">Le bon café</h6>
+                <p class="bold three-thingies-padding">Nos priorités : la qualité et le goût. Tous nos cafés sont soigneusements séléctionnés en accord avec nos valeurs de respect de la nature et des hommes.</p>
+              </div>
+              <div class="col-3 three-thingies">
+                <img class="three-thingies-icons" src="./assets/icon_gens.png" alt="Icon: Gens">
+                <h6 class="bold three-thingies-padding">Les gens</h6>
+                <p class="bold three-thingies-padding">Nous sommes de ceux qui pensent qu'ensemble, nous allons plus loin. C'est pourquoi chez Mr.Coffee, notre mission est de rassembler les gens en leur offrant un lieu de liberté et de partages.</p>
+              </div> 
+              <div class="col-3 three-thingies">
+                <img class="three-thingies-icons" src="./assets/icon_histoires.png" alt="Icon: Histoires">
+                <h6 class="bold three-thingies-padding">Les histoires</h6>
+                <p class="bold three-thingies-padding">Chez Mr.Coffee, que vous soyez poête, fantasque ou philosophe, nous vous offrons un lieu pour parler de vos histoires, ou pour les écrire.</p>
+              </div>
+            </div>
+
         </div>
 
         <!-- Button -->
@@ -51,7 +77,6 @@
         </div>
 
         <!-- Cafeteria Offer -->
-
         <div class="container-fluid extra-padding">
 
             <div class="row">
@@ -82,7 +107,7 @@
                 <div class="col extra-padding extra-margin-h">
                     <h3 class="bold">Venez écouter ou lire vos plus beaux poèmes : Mr.Coffee offre une consommation à tous les courageux !</h3>
                 </div>
-                <div class="col extra-padding extra-margin-h extra-margin-v">
+                <div class="col extra-padding extra-margin-h extra-margin-bottom">
                     <h3 class="bold">Autour d'un thème philosophique ou de société, venez débattre entre experts ou simple curieux.</h3>
                 </div>
             </div>
@@ -101,8 +126,7 @@
 
     </section>
 
-    <!-- 3 Modules Section -->
-
+    <!-- FOOTER -->
     <footer class="container-fluid">
         <div class="row footer bg-gray-blue align-items-center">
             <div class="col-2">

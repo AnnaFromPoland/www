@@ -28,14 +28,14 @@
         </div>
     </nav>
 
-    <!-- HEADER -->
-    <header class="container">
-        <img class="mrcoffee-logo" src="./assets/logo_mrcoffee.png" alt="Mr Coffee Logo">
-    </header>
-
     <!-- MAIN BODY SECTION -->
 
     <section class="main-body-section">
+
+        <!-- HEADER -->
+        <header class="header container-fluid">
+            <img class="mrcoffee-logo" src="./assets/logo_mrcoffee.png" alt="Mr Coffee Logo Dark">
+        </header>
 
         <!-- Cafeteria Photo -->
         <div class="card">
@@ -69,20 +69,20 @@
                 <div class="col-6"></div>
             </div>
 
-            <div class="row extra-padding">
-                <div class="col">
+            <div class="row">
+                <div class="col extra-padding extra-margin-h">
                     <h3>Tous les mardis,<br>retrouvez <span class="bold">les cafés poésies :</span></h3>
                 </div>
-                <div class="col">
+                <div class="col extra-padding extra-margin-h">
                     <h3>Tous les jeudi,<br>retrouvez <span class="bold">les cafés philo et débat :</span></h3>
                 </div>
             </div>
 
-            <div class="row extra-padding">
-                <div class="col">
+            <div class="row">
+                <div class="col extra-padding extra-margin-h">
                     <h3 class="bold">Venez écouter ou lire vos plus beaux poèmes : Mr.Coffee offre une consommation à tous les courageux !</h3>
                 </div>
-                <div class="col">
+                <div class="col extra-padding extra-margin-h extra-margin-v">
                     <h3 class="bold">Autour d'un thème philosophique ou de société, venez débattre entre experts ou simple curieux.</h3>
                 </div>
             </div>
@@ -92,7 +92,9 @@
             </div>
 
             <div class="row extra-padding">
-                <h4>Rendez-vous sur notre page Contact pour retrouver toutes les infos pratiques</h4>
+                <div class="col extra-margin-h extra-margin-h-more">
+                    <h4>Rendez-vous sur notre page Contact pour retrouver toutes les infos pratiques</h4>  
+                </div>
             </div>
 
         </div>
@@ -101,17 +103,20 @@
 
     <!-- 3 Modules Section -->
 
-    <!-- FOOTER -->
-    <footer class="footer bg-gray-blue row align-items-center">
-        <div class="container-fluid">
-            <a href="index.html"><img src="./assets/logo_blanc.png" alt="logo white" class="footer-icon" /></a>
-            <div class="row text-center">
-                <p>Suivez nous sur les réseaux sociaux !</p>
+    <footer class="container-fluid">
+        <div class="row footer bg-gray-blue align-items-center">
+            <div class="col-2">
+              <a href="index.html"><img class="footer-icon" src="./assets/logo_blanc.png" alt="Mr Coffee Logo White"></a>
+            </div> 
+            <div class="col-8">
+              <div class="row text-center">
+                <h5>Suivez nous sur les réseaux sociaux !</h5>
                 <div class="container footer-links">
                     <a href="https://www.linkedin.com" target="_blank"><img src="./assets/logo_linkedin.png" alt="LinkedIn Logo" /></a>
                     <a href="https://twitter.com" target="_blank"><img src="./assets/logo_twitter.png" alt="Twitter Logo" /></a>
                     <a href="https://www.facebook.com" target="_blank"><img src="./assets/logo_facebook.png" alt="Facebook Logo" /></a>
                 </div>
+              </div>
             </div>
         </div>
     </footer>
